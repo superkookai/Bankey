@@ -8,7 +8,7 @@
 import UIKit
 
 extension UIViewController {
-    // New
+    
     func setStatusBar() {
         let navBarAppearance = UINavigationBarAppearance()
         navBarAppearance.configureWithTransparentBackground() // to hide Navigation Bar Line also
