@@ -73,6 +73,7 @@ extension AccountSummaryCell {
 
         balanceLabel.translatesAutoresizingMaskIntoConstraints = false
         balanceLabel.font = UIFont.preferredFont(forTextStyle: .body)
+        balanceLabel.adjustsFontForContentSizeCategory = true
         balanceLabel.textAlignment = .right
         balanceLabel.text = "Some balance"
 
